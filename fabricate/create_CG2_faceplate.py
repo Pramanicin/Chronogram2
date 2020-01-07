@@ -5,7 +5,7 @@ import os.path
 from random import choice
 import string
 from numpy import *
-import PIL.Image
+# import PIL.Image
 from reportlab.pdfgen import canvas
 from reportlab.graphics import renderPDF
 from reportlab.graphics.shapes import Drawing, Group, String, Circle, Rect
@@ -20,7 +20,7 @@ from reportlab.pdfbase.ttfonts import TTFont
 import glob
 import os.path
 import sys
-sys.path.append('/home/justin/Dropbox/WyoLumCode/CNC/')
+sys.path.append('/Users/Nick/code/Chronogram2/fabricate/CNC')
 from cnc import *
 from baffles import *
 
@@ -427,7 +427,7 @@ lower = my_lower
 upper = my_upper
 
 english2_v1 = Langs.Simulate2x.readwtf("Langs/English2_v1.wtf")['letters']
-german2_v1440 = Langs.Simulate1440.readwtf("Langs/German2_v1440.csv")['letters']
+# german2_v1440 = Langs.Simulate1440.readwtf("Langs/German2_v1440.csv")['letters']
 cases = {'lower':lower,
          'UPPER':upper}
 
